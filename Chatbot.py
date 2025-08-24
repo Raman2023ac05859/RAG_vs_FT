@@ -1105,7 +1105,7 @@ class FineTunedSystem:
         # Load base model
         self.base_model = AutoModelForCausalLM.from_pretrained(model_name)
         self.model = None  # Will store fine-tuned model
-        self.is_trained = False
+        self.is_trained = True
     
     def _tidy_text(self, s: str) -> str:
         import re
@@ -2025,5 +2025,6 @@ if __name__ == "__main__":
     # Run the main Streamlit application
 
     create_streamlit_app()
+
 
 
