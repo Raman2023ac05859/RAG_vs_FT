@@ -29,6 +29,8 @@ from transformers import (
 )
 from transformers.models.gpt2.modeling_gpt2 import Conv1D
 
+print("Transformers version:", transformers.__version__)
+
 try:
     import pdfplumber
 except Exception:
@@ -2020,4 +2022,5 @@ if __name__ == "__main__":
     # run_unit_tests()
     
     # Run the main Streamlit application
+
     create_streamlit_app()
