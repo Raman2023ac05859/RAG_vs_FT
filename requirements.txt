@@ -5,7 +5,6 @@ torch>=2.0.0
 tokenizers>=0.14
 sentence-transformers>=2.2.0
 datasets>=2.0.0
-python == 3.11.9
 
 # Vector database and similarity search
 faiss-cpu>=1.7.0
@@ -30,5 +29,6 @@ accelerate>=0.20.0
 # For Apple Silicon Macs (optional)
 
 # torch-audio  # Only if needed
+
 
 
