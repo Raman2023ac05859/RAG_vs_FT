@@ -22,6 +22,7 @@ from typing import Optional
 import torch
 import torch.nn as nn
 from sklearn.metrics.pairwise import cosine_similarity
+import transformers
 from transformers import (
     AutoTokenizer, AutoModel, AutoModelForCausalLM, 
     Trainer, TrainingArguments, DataCollatorForLanguageModeling,
@@ -2024,3 +2025,4 @@ if __name__ == "__main__":
     # Run the main Streamlit application
 
     create_streamlit_app()
+
