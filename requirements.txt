@@ -1,7 +1,8 @@
 # Financial QA System Requirements
 # Core ML and NLP libraries
-torch>=1.9.0
-transformers>=4.30.0
+transformers==4.42.4
+torch>=2.0.0
+tokenizers>=0.14
 sentence-transformers>=2.2.0
 datasets>=2.0.0
 
@@ -28,3 +29,4 @@ accelerate>=0.20.0
 # For Apple Silicon Macs (optional)
 
 # torch-audio  # Only if needed
+
